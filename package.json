@@ -1,0 +1,28 @@
+{
+  "name": "lby-markdown",
+  "version": "1.0.0",
+  "description": "markdown编辑器",
+  "main": "src/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaryWolf2023/lby-markdowm.git"
+  },
+  "keywords": [
+    "lby-markdowm"
+  ],
+  "author": "lby-tom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaryWolf2023/lby-markdowm/issues"
+  },
+  "homepage": "https://github.com/GaryWolf2023/lby-markdowm#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
